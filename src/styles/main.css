@@ -1,0 +1,182 @@
+nav {
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+body {
+    padding-top: 55px;
+    
+}
+
+main {
+    background-color: #96858F;
+    width: 100%;
+}
+
+.informations {
+    position: fixed;
+    width: 40%;
+    background: #D5D5D5;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.title-main {
+    font-family: 'Roboto', sans-serif;
+    padding: 2px;
+}
+
+.profile-picture {
+    width: 60%;
+    border-radius: 220px;
+    padding: 20px;
+}
+
+.fa-whatsapp-square {
+    color: #25D366;
+}
+
+.fa-github-square,
+.fa-github-alt {
+    color:grey;
+}
+
+.fa-linkedin,
+.fa-css3-alt,
+.fa-python {
+    color: #0A66C2;
+}
+
+.fa-envelope-square {
+    color: #6D7993;
+}
+.fa-js-square {
+    color: yellow;
+}
+
+.fa-html5,
+.fa-git-alt {
+    color: #FF6614;
+}
+
+.fa-figma,
+.fa-bootstrap {
+    color: #A259FF;
+}
+
+.social i {
+    font-size: 40px;
+    padding: 10px 5px;
+    transition: all 0.5s;
+}
+
+.social i:hover {
+    color: black;
+}
+
+ul.lista li {
+    list-style-type: disc;
+    color: #D5D5D5;
+    font-style: italic;
+    padding-top: 5px;
+    text-align: left;
+}
+
+.all {
+    background-color: #96858F;
+    text-align: center;
+}
+
+.first, .second, .projects, .contact {
+    background-color: #6D7993;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.title-sections {
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+}
+
+.img-sections {
+    width: 40%;
+    padding: 10px 0;
+}
+
+.second .skills-icons {
+    margin-left: 2rem;
+}
+
+.skills-icons {
+    font-size: 50px;
+    padding: 10px;
+    display: flex;
+}
+
+.skills-icons p {
+    font-size: 25px;
+    vertical-align: center;
+}
+
+.card.skills {
+    background-color: #D5D5D5;
+    border: 0.8px solid black;
+    width: 7rem;
+    height: 8rem;
+    margin: 10px;
+    padding-top: 8px;
+    transition: 0.8s all;
+}
+
+.card.skills:hover {
+    background-color: #9099A2;
+    font-size: 51px;
+    width: 8rem;
+}
+
+.card.skills p:hover {
+    font-size: 27px;
+}
+
+.title-projects {
+    font-family: 'Roboto', sans-serif;
+    color: #D5D5D5;
+    padding: 20px;
+}
+
+.projects-web {
+    display: flex;
+}
+
+.card.web:hover {
+    background-color: #96858F;
+    color: #d5d5d5;
+}
+
+.card.web {
+    background-color: #d5d5d5;
+    width: 12rem;
+    margin: 10px 50px;
+    padding: 8px;
+    transition: 0.9s all;
+}
+
+.form input, 
+.form textarea {
+    width: 80%;
+    margin-left: 70px;
+}
+
+footer {
+    background-color: #9099A2;;
+    text-align: center;
+    font-size: 15px;
+}
